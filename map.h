@@ -61,4 +61,6 @@ void Map_add_rows(Map *m, int map_sections[12][12], int tile_row[TILE_COLS], int
 
 void Map_add_sections(Map *m, int map_sections[12][12], int tile_row[TILE_COLS], int *row, int *index, int map[12 * 12]);
 
+void Map_clean(Map *m);
+
 #endif //TILER_MAP_H

@@ -107,6 +107,5 @@ static void Map_set_map_sections_index(Map *m)
 
 void Map_clean(Map *m)
 {
-    free(m->tile_row);
     free(m);
 }
