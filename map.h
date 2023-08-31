@@ -46,6 +46,11 @@ typedef struct _Map {
     int tile_row[TILE_COLS];
 } Map;
 
+typedef struct _Tiler {
+    int x;
+    int y;
+} Tiler;
+
 Map *Map_new(int row_length, int map_length);
 
 void Map_draw_map(Map *m, int map_sections[12][12], int map[12 * 12]);
