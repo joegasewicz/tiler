@@ -11,9 +11,6 @@ memcpy(map_sections[5], test_tiles_5, sizeof(int)*12);
 memcpy(map_sections[6], test_tiles_6, sizeof(int)*12);
 memcpy(map_sections[7], test_tiles_7, sizeof(int)*12);
 memcpy(map_sections[8], test_tiles_8, sizeof(int)*12);
-memcpy(map_sections[9], test_tiles_9, sizeof(int)*12);
-memcpy(map_sections[10], test_tiles_10, sizeof(int)*12);
-memcpy(map_sections[11], test_tiles_11, sizeof(int)*12);
 ```
 
 Take each map sections & merge into a single massive map
