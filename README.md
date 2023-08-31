@@ -1,7 +1,7 @@
 # Tiler
 Util to create huge 2d sprite maps
 ```c
-int map_sections[12][12] = {};
+int map_sections[9][9] = {};
 memcpy(map_sections[0], test_tiles_0, sizeof(int)*12);
 memcpy(map_sections[1], test_tiles_1, sizeof(int)*12);
 memcpy(map_sections[2], test_tiles_2, sizeof(int)*12);
